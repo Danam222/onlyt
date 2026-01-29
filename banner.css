@@ -34,7 +34,7 @@
         .swiper-button-next { right: 0; transform: translateX(50%); }
         .swiper-button-next::after,
         .swiper-button-prev::after { font-size: 14px; }
-        }
+        
         /* 4. 모바일 대응 (화면이 아주 작을 때) */
         @media (max-width: 768px) {
             /* 모바일에서는 여백을 좀 줄여서 이미지를 더 크게 보여줌 */
@@ -54,3 +54,4 @@
             /* 버튼을 슬라이더 안쪽 끝에 딱 붙임 */
             .swiper-button-prev { left: 10px; }
             .swiper-button-next { right: 10px; }
+        }
